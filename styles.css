@@ -167,3 +167,69 @@
         font-size: 1.5rem;
     }
 }
+
+/* About Us Section */
+.about{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 5rem;
+    color: #002B5B;
+}
+.about h1{
+    color: #002B5B;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    background-size: 100%;
+}
+.about-content{
+    margin: 3rem;
+    text-align: center;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.about-content p{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #002B5B;
+}
+.about-img-card{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+    margin-top: 150px;
+}
+.about-card{
+    margin: auto 50px;
+}
+.about-card img{
+    size: 200px;
+    border-radius: 50%;
+}
+
+
+
+/* Testimonial */
+
+.testimonials{
+    margin: 100px 200px;
+    padding: auto 200px;
+    height: 80vh;
+    justify-content: center;
+    text-align: center;
+}
+.testimonials h1{
+    color: #fff;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    background-size: 100%;
+    margin-top: 80px;
+}
+.testimonials img{
+    height: 70vh;
+    
+    object-fit: cover;
+    justify-content: center;
+}
