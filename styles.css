@@ -35,6 +35,10 @@
     color:#ffffff;
 
 }
+/* #navbar-logo img{
+    height: 100px;
+    width: 100px;
+} */
 
 .navbar-menu{
     display: flex;
@@ -205,7 +209,8 @@
     margin: auto auto;
 }
 .about-card img{
-    size: 200px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -216,6 +221,7 @@
     justify-content: center;
     margin-top: 5rem;
     background-color: #002B5B;
+    padding-bottom: 2rem ;
     
 }
 .services h1{
@@ -231,7 +237,7 @@
     object-fit: cover;
 }
 .card{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 /* Testimonial */
@@ -244,15 +250,47 @@
     text-align: center;
 }
 .testimonials h1{
-    color: #fff;
+    color: #002B5B;
     margin-bottom: 3rem;
     font-size: 3.5rem;
     background-size: 100%;
     margin-top: 80px;
 }
 .testimonials img{
-    height: 70vh;
+    height: 60vh;
     
     object-fit: cover;
     justify-content: center;
+}
+
+/* Contact Us */
+.contact-container{
+    background-color: #002B5B;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 0px;
+    
+}
+.contact-container h1{
+    padding-top: 100px;}
+.row-content{
+    padding-right: 0px;
+    text-align: center;
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+}
+.main-contact-content{
+   font-weight: 200;
+   text-align: left;
+   font-size: 1.5rem;
+   padding-right: 200px;
+}
+.form-content{
+    text-align: left;
+}
+i{
+    margin: 2rem;
 }
