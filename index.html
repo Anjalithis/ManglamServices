@@ -14,39 +14,14 @@
 
 </head>
 <body>
-      <!-- <nav class="navbar">
-        <div class="navbar-container">
-            <a href="/" id="navbar-logo">
-              Manglam Services              
-            </a>
-            
-           </label>
-            
-            <ul class="navbar-menu">
-                <li class="navbar-item">
-                    <a href="#about-us" class="navbar-link">About</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#services" class="navbar-link">Services</a>
-                </li>
-                <li class="navbar-item">
-                  <a href="#testimonials" class="navbar-link">Testimonials</a>
-              </li>
-                <li class="navbar-item">
-                    <a href="#contact" class="navbar-link">Contact</a>
-                </li>
-            </ul>
-            <input type="checkbox" name="" id="check">
-            <label for="check" class="checkbtn">
-             <i class="fas fa-bars"></i>
-        </div>
-       
-    </nav>  
+     <!-- Navbar Srction -->
   
-   -->
-   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Manglam Services</a>
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Manglam Services
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -56,11 +31,12 @@
             <a class="nav-link" href="#about-us">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#products">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#testimonials">Testimonials</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
+         
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
@@ -92,38 +68,26 @@
    <div id="about-us" class="about">
     <h1>About Us</h1>
     <div class="about-content">
-        <p>We are a freshly oriented firm but our ecperiences doesn't hold us back in any term. We have management as well as engineering professionals and have worked as a partnered firm on projects with Companies like HONDA, I.J.L.(Indian Japan Lighting), LUMAX, CAPARD, FCC Cluth, etc. 
-            We deliver projects by Keeping track with the Market Development and provide optimum quality with flawless finish high strength and long term durability</p>
-        <div class="about-img-card">
-            <div class="about-card">
-                <img src="images/pic-profile.svg" alt="" class="about-img">
-                <p>Naveen Singh</p>
-                <h6>Designation</h6>
-            </div>
-            <div class="about-card">
-                <img src="images/pic-profile.svg" alt="" class="about-img">
-                <p>Person B</p>
-                <h6>Designation</h6>
-            </div>
-            <div class="about-card">
-                <img src="images/pic-profile.svg" alt="" class="about-img">
-                <p>Person C</p>
-                <h6>Designation</h6>
-            </div>
-            <div class="about-card">
-              <img src="images/pic-profile.svg" alt="" class="about-img">
-              <p>Person D</p>
-              <h6>Designation</h6>
-          </div>
-          <div class="about-card">
-            <img src="images/pic-profile.svg" alt="" class="about-img">
-            <p>Person E</p>
-            <h6>Designation</h6>
-        </div>
-        </div>
-          
+        <p>We are a freshly oriented firm but our experiences doesn't hold us back in any term. We have management as well as engineering professionals and have worked as a partnered firm on projects with Companies like HONDA, I.J.L.(Indian Japan Lighting), 
+          LUMAX, CAPARO, FCC Cluth, etc. We deliver projects by Keeping track with the Market Development and provide optimum quality with flawless finish high strength and long term durability.
+          </p>
+         
     </div>
    </div>
+   <div class="clients-section">
+    <h1 class="clients-heading">Our Clients</h1>
+   <div class="clients-container">
+     <img class="clients-logo" src="images/clients/can pack.jpeg" alt="">
+     <img class="clients-logo" src="images/clients/caparo.webp" alt="">
+     <img class="clients-logo" src="images/clients/carlfreys.jpeg" alt="">
+     <img class="clients-logo" src="images/clients/fcc clutch.png" alt="">
+     <img class="clients-logo" src="images/clients/gabriel.png" alt="">
+     <img class="clients-logo" src="images/clients/munjal showa.jpeg" alt="">
+     <img class="clients-logo" src="images/clients/nitto.jpeg" alt="">
+   </div>
+   </div>
+   
+   
 
    <!-- Services Section -->
 
@@ -134,7 +98,36 @@
             <div class="row">
               <div class="card-col col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 20;">
-                    <img src="images/polycarb.jpeg" class="card-img-top" alt="...">
+                  <div id="polycarb" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#polycarb" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#polycarb" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#polycarb" data-bs-slide-to="2"></button>
+                    </div>
+                  
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/polycarb.jpeg" alt="Los Angeles" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/polycarb.jpeg" alt="Chicago" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/polycarb.jpeg" alt="New York" class="d-block w-100">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#polycarb" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#polycarb" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
                     <div class="card-body">
                         <h5 class="card-title">Polycarbonate Sheets</h5>
                           <!-- Button trigger modal -->
@@ -147,7 +140,37 @@
                       <div class="modal-dialog modal-xl modal-dialog-centered ">
                         <div class="modal-content">
                         <div class="modal-body">
-                          <img src="images/polycarb.jpeg" alt="">
+                          <div id="polycarb-modal" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#polycarb-modal" data-bs-slide-to="0" class="active"></button>
+                              <button type="button" data-bs-target="#polycarb-modal" data-bs-slide-to="1"></button>
+                              <button type="button" data-bs-target="#polycarb-modal" data-bs-slide-to="2"></button>
+                            </div>
+                          
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/polycarb.jpeg" alt="Los Angeles" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/polycarb.jpeg" alt="Chicago" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/polycarb.jpeg" alt="New York" class="d-block w-100">
+                              </div>
+                            </div>
+                          
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#polycarb-modal" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#polycarb-modal" data-bs-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                            </button>
+                          </div>
+                        
                           We use premium quality basic material and advanced technology at our high end manufacturing unit. Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor.
                            These products are treasured for their high quality standards, reliable performance and longer service life. We use premium quality basic material and advanced technology at our high end manufacturing unit. 
                           Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor. These products are treasured for their high quality standards, reliable performance and longer service life.
@@ -157,7 +180,7 @@
                         </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Contact Us</button>
+                            <a href="/contact-form.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
                           </div>
                         </div>
                       </div>
@@ -167,7 +190,36 @@
               </div>
               <div class="card-col col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 20;">
-                    <img src="images/louver.webp" class="card-img-top" alt="...">
+                  <div id="louver" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#louver" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#louver" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#louver" data-bs-slide-to="2"></button>
+                    </div>
+                  
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/louver.webp" alt="Los Angeles" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/louver.webp" alt="Chicago" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/louver.webp" alt="New York" class="d-block w-100">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#louver" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#louver" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
                     <div class="card-body">
                       <h5 class="card-title">Louver Ventilation</h5>
                       <!-- Button trigger modal -->
@@ -180,14 +232,43 @@
                         <div class="modal-dialog modal-lg modal-dialog-centered ">
                           <div class="modal-content">
                           <div class="modal-body">
-                            <img src="images/louver.webp" alt="">
+                            <div id="louver-modal" class="carousel slide" data-bs-ride="carousel">
+
+                              <!-- Indicators/dots -->
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#louver-modal" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#louver-modal" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#louver-modal" data-bs-slide-to="2"></button>
+                              </div>
+                            
+                              <!-- The slideshow/carousel -->
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/louver.webp" alt="Los Angeles" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/louver.webp" alt="Chicago" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/louver.webp" alt="New York" class="d-block w-100">
+                                </div>
+                              </div>
+                            
+                              <!-- Left and right controls/icons -->
+                              <button class="carousel-control-prev" type="button" data-bs-target="#louver-modal" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#louver-modal" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </button>
+                            </div>
                             We use premium quality basic material and advanced technology at our high end manufacturing unit. Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor.
                             These products are treasured for their high quality standards, reliable performance and longer service life. We use premium quality basic material and advanced technology at our high end manufacturing unit. 
                             Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor. These products are treasured for their high quality standards, reliable performance and longer service life.
                           </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Contact Us</button>
+                              <a href="/contact-form.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
                             </div>
                           </div>
                         </div>
@@ -197,7 +278,36 @@
               </div>
               <div class="card-col col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 20;">
-                    <img src="images/turbo.jpeg" class="card-img-top" alt="...">
+                  <div id="turbo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#turbo" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#turbo" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#turbo" data-bs-slide-to="2"></button>
+                    </div>
+                  
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/turbo.jpeg" alt="Los Angeles" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/turbo.jpeg" alt="Chicago" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/turbo.jpeg" alt="New York" class="d-block w-100">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#turbo" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#turbo" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
                     <div class="card-body">
                       <h5 class="card-title">Turbo Ventilation</h5>
                       
@@ -211,13 +321,42 @@
                         <div class="modal-dialog modal-lg modal-dialog-centered ">
                           <div class="modal-content">
                           <div class="modal-body">
-                            <img src="images/turbo.jpeg" alt="">
+                            <div id="turbo-modal" class="carousel slide" data-bs-ride="carousel">
+
+                              <!-- Indicators/dots -->
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#turbo-modal" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#turbo-modal" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#turbo-modal" data-bs-slide-to="2"></button>
+                              </div>
+                            
+                              <!-- The slideshow/carousel -->
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/turbo.jpeg" alt="Los Angeles" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/turbo.jpeg" alt="Chicago" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/turbo.jpeg" alt="New York" class="d-block w-100">
+                                </div>
+                              </div>
+                            
+                              <!-- Left and right controls/icons -->
+                              <button class="carousel-control-prev" type="button" data-bs-target="#turbo-modal" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#turbo-modal" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </button>
+                            </div>
                             Our product range is designed with utmost care to protect from rain. These Turbo Roof Ventilation System are considered as one stop solution to problems related to Heating, Smoke, Fume, Smell,
                              Poor ventilation systems in Sheds, Warehouses, Auditoriums or any enclosed areas. Our complete product range is also examined on defined parameters to eliminate all the flaws.
                           </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Contact Us</button>
+                              <a href="/contact-form.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
                             </div>
                           </div>
                         </div>
@@ -227,7 +366,36 @@
               </div>
               <div class="card-col col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 20;">
-                    <img src="images/ridge.webp" class="card-img-top" alt="...">
+                  <div id="ridge" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#ridge" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#ridge" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#ridge" data-bs-slide-to="2"></button>
+                    </div>
+                  
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/ridge.webp" alt="Los Angeles" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/ridge.webp" alt="Chicago" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/ridge.webp" alt="New York" class="d-block w-100">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ridge" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ridge" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
                     <div class="card-body">
                       <h5 class="card-title">Ridge Ventilation</h5>
                        <!-- Button trigger modal -->
@@ -240,14 +408,43 @@
                         <div class="modal-dialog modal-lg modal-dialog-centered ">
                           <div class="modal-content">
                           <div class="modal-body">
-                            <img src="images/ridge.webp" alt="">
+                            <div id="ridge-modal" class="carousel slide" data-bs-ride="carousel">
+
+                              <!-- Indicators/dots -->
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#ridge-modal" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#ridge-modal" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#ridge-modal" data-bs-slide-to="2"></button>
+                              </div>
+                            
+                              <!-- The slideshow/carousel -->
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/ridge.webp" alt="Los Angeles" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/ridge.webp" alt="Chicago" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/ridge.webp" alt="New York" class="d-block w-100">
+                                </div>
+                              </div>
+                            
+                              <!-- Left and right controls/icons -->
+                              <button class="carousel-control-prev" type="button" data-bs-target="#ridge-modal" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#ridge-modal" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </button>
+                            </div>
                             We use premium quality basic material and advanced technology at our high end manufacturing unit. Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor.
                              These products are treasured for their high quality standards, reliable performance and longer service life. We use premium quality basic material and advanced technology at our high end manufacturing unit. 
                             Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor. These products are treasured for their high quality standards, reliable performance and longer service life.
                           </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Contact Us</button>
+                              <a href="/contact-form.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
                             </div>
                           </div>
                         </div>
@@ -260,7 +457,36 @@
 
               <div class="card-col col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 20;">
-                    <img src="images/gypsum.jpeg" class="card-img-top" alt="...">
+                  <div id="gypsum" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#gypsum" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#gypsum" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#gypsum" data-bs-slide-to="2"></button>
+                    </div>
+                  
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/gypsum.jpeg" alt="Los Angeles" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/gypsum.jpeg" alt="Chicago" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/gypsum.jpeg" alt="New York" class="d-block w-100">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#gypsum" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#gypsum" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
                     <div class="card-body">
                         <h5 class="card-title">Gypsum False Ceiling</h5>
                          <!-- Button trigger modal -->
@@ -273,14 +499,43 @@
                         <div class="modal-dialog modal-lg modal-dialog-centered ">
                           <div class="modal-content">
                           <div class="modal-body">
-                            <img src="images/gypsum.jpeg" alt="">
+                            <div id="gypsum-modal" class="carousel slide" data-bs-ride="carousel">
+
+                              <!-- Indicators/dots -->
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#gypsum-modal" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#gypsum-modal" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#gypsum-modal" data-bs-slide-to="2"></button>
+                              </div>
+                            
+                              <!-- The slideshow/carousel -->
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/gypsum.jpeg" alt="Los Angeles" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/gypsum.jpeg" alt="Chicago" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/gypsum.jpeg" alt="New York" class="d-block w-100">
+                                </div>
+                              </div>
+                            
+                              <!-- Left and right controls/icons -->
+                              <button class="carousel-control-prev" type="button" data-bs-target="#gypsum-modal" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#gypsum-modal" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </button>
+                            </div>
                             We use premium quality basic material and advanced technology at our high end manufacturing unit. Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor.
                              These products are treasured for their high quality standards, reliable performance and longer service life. We use premium quality basic material and advanced technology at our high end manufacturing unit. 
                             Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor. These products are treasured for their high quality standards, reliable performance and longer service life.
                           </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Contact Us</button>
+                              <a href="/contact-form.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
                             </div>
                           </div>
                         </div>
@@ -292,7 +547,36 @@
               
               <div class="card-col col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 20;">
-                    <img src="images/ss.webp" class="card-img-top" alt="...">
+                  <div id="ss-ms" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#ss-ms" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#ss-ms" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#ss-ms" data-bs-slide-to="2"></button>
+                    </div>
+                  
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/ss.webp" alt="Los Angeles" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/ss.webp" alt="Chicago" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/ss.webp" alt="New York" class="d-block w-100">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ss-ms" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ss-ms" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
                     <div class="card-body">
                       <h5 class="card-title">S.S. M/S Fabrication</h5>
                        <!-- Button trigger modal -->
@@ -305,14 +589,43 @@
                         <div class="modal-dialog modal-lg modal-dialog-centered ">
                           <div class="modal-content">
                           <div class="modal-body">
-                            <img src="images/ss.webp" alt="">
+                            <div id="ss-ms-modal" class="carousel slide" data-bs-ride="carousel">
+
+                              <!-- Indicators/dots -->
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#ss-ms-modal" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#ss-ms-modal" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#ss-ms-modal" data-bs-slide-to="2"></button>
+                              </div>
+                            
+                              <!-- The slideshow/carousel -->
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/ss.webp" alt="Los Angeles" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/ss.webp" alt="Chicago" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/ss.webp" alt="New York" class="d-block w-100">
+                                </div>
+                              </div>
+                            
+                              <!-- Left and right controls/icons -->
+                              <button class="carousel-control-prev" type="button" data-bs-target="#ss-ms-modal" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#ss-ms-modal" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </button>
+                            </div>
                             We use premium quality basic material and advanced technology at our high end manufacturing unit. Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor.
                              These products are treasured for their high quality standards, reliable performance and longer service life. We use premium quality basic material and advanced technology at our high end manufacturing unit. 
                             Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor. These products are treasured for their high quality standards, reliable performance and longer service life.
                           </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Contact Us</button>
+                              <a href="/contact-form.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
                             </div>
                           </div>
                         </div>
@@ -323,7 +636,36 @@
               
               <div class="card-col col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 20;">
-                    <img src="images/pre-engg.jpeg" class="card-img-top" alt="...">
+                  <div id="pre-engineered" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#pre-engineered" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#pre-engineered" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#pre-engineered" data-bs-slide-to="2"></button>
+                    </div>
+                  
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/pre-engg.jpeg" alt="Los Angeles" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/pre-engg.jpeg" alt="Chicago" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/pre-engg.jpeg" alt="New York" class="d-block w-100">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#pre-engineered" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#pre-engineered" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
                     <div class="card-body">
                       <h5 class="card-title">Pre-Engineered Building</h5>
                        <!-- Button trigger modal -->
@@ -336,12 +678,41 @@
                         <div class="modal-dialog modal-lg modal-dialog-centered ">
                           <div class="modal-content">
                           <div class="modal-body">
-                            <img src="images/pre-engg.jpeg" alt="">
+                            <div id="pre-engineered-modal" class="carousel slide" data-bs-ride="carousel">
+
+                              <!-- Indicators/dots -->
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#pre-engineered-modal" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#pre-engineered-modal" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#pre-engineered-modal" data-bs-slide-to="2"></button>
+                              </div>
+                            
+                              <!-- The slideshow/carousel -->
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/pre-engg.jpeg" alt="Los Angeles" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/pre-engg.jpeg" alt="Chicago" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/pre-engg.jpeg" alt="New York" class="d-block w-100">
+                                </div>
+                              </div>
+                            
+                              <!-- Left and right controls/icons -->
+                              <button class="carousel-control-prev" type="button" data-bs-target="#pre-engineered-modal" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#pre-engineered-modal" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </button>
+                            </div>
                             Structural Engineering is the quickest easiest & most Durable choice that helps the every one for getting more output. Structure’s design provides it the uniqueness they are known for every P.E.B structure has the different 
                           </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Contact Us</button>
+                              <a href="/contact-form.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
                             </div>
                           </div>
                         </div>
@@ -351,7 +722,36 @@
               </div>
               <div class="card-col col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 20;">
-                    <img src="images/rain-water.jpeg" class="card-img-top" alt="...">
+                  <div id="rainwater" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#rainwater" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#rainwater" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#rainwater" data-bs-slide-to="2"></button>
+                    </div>
+                  
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/rain-water.jpeg" alt="Los Angeles" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/rain-water.jpeg" alt="Chicago" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/rain-water.jpeg" alt="New York" class="d-block w-100">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#rainwater" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#rainwater" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
                     <div class="card-body">
                       <h5 class="card-title">Rain-water Guttering</h5>
                        <!-- Button trigger modal -->
@@ -364,14 +764,43 @@
                         <div class="modal-dialog modal-lg modal-dialog-centered ">
                           <div class="modal-content">
                           <div class="modal-body">
-                            <img src="images/rain-water.jpeg" alt="">
+                            <div id="rainwater-modal" class="carousel slide" data-bs-ride="carousel">
+
+                              <!-- Indicators/dots -->
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#rainwater-modal" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#rainwater-modal" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#rainwater-modal" data-bs-slide-to="2"></button>
+                              </div>
+                            
+                              <!-- The slideshow/carousel -->
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/rain-water.jpeg" alt="Los Angeles" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/rain-water.jpeg" alt="Chicago" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/rain-water.jpeg" alt="New York" class="d-block w-100">
+                                </div>
+                              </div>
+                            
+                              <!-- Left and right controls/icons -->
+                              <button class="carousel-control-prev" type="button" data-bs-target="#rainwater-modal" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#rainwater-modal" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </button>
+                            </div>
                             We use premium quality basic material and advanced technology at our high end manufacturing unit. Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor.
                              These products are treasured for their high quality standards, reliable performance and longer service life. We use premium quality basic material and advanced technology at our high end manufacturing unit. 
                             Our range is extensively used in perengineered buildings to give a refreshing look to any exterior decor. These products are treasured for their high quality standards, reliable performance and longer service life.
                           </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <a href="#contact"><button type="button" data-bs-dismiss="modal" class="btn btn-primary">Contact Us</button></a>
+                              <a href="/contact-form.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
                             </div>
                           </div>
                         </div>
@@ -387,38 +816,6 @@
    </div>
 
    
-
-   <!-- Testimonials Section -->
-   
-    <div id="testimonials" class="testimonials">
-        <h1>Testimonials</h1>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/test1.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/test2.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/test3.jpeg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div> 
    
        <!-- Contact Us section -->
        <div id = "contact" class="contact-container">

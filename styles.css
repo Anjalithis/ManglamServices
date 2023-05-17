@@ -82,19 +82,20 @@
     }
 } */
 
-.navbar-brand{
-    padding-left: 100px;
-}
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {
         float: right;
         flex-grow: 0;
-        padding-right: 200px;
+        
         
     }
-    .navbar-brand{
-        padding-left: 50px;
-    }
+   .container{
+    padding-right: 0px;
+   }
+   .navbar-brand{
+    padding-left: 0px;
+}
+
 }
     /* Hero section */
 
@@ -192,7 +193,79 @@
        
     }
     .main-content h1{
-        font-size: 3rem;
+        font-size: 1.5rem;
+        color: #ffffff;
+        background-size: 100%;
+    }
+    .main-content p{
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+    .main-btn{
+        font-size: 1rem;
+        background-image: linear-gradient(to top, #D2001A 0%, #E0144C 100%);
+        padding: 14px 32px;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        margin-top: 1rem;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.35s;
+        outline: none;
+    }
+    .main-btn a{
+        position: relative;
+        z-index: 2;
+        color: #fff;
+        text-decoration: none;
+    }
+    .main-btn:after{
+        position: absolute;
+        content: '';
+        top:0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: #4837ff;
+        transition: all o.35s;
+        border-radius: 4px;
+    }
+    .main-btn:hover{
+        color: #fff;
+    }
+    .main-btn:hover:after{
+        width:100%;
+    }
+    
+    .main-img-container{
+        text-align: center;
+    }
+    #main-img{
+        height: 0%;
+        width: 0%;
+        
+    }
+}
+@media (min-width: 769px) and (max-width: 1023px){
+    .main-container{
+        padding-top:100px;
+        display: grid;
+        align-items: center;
+        height: 50vh;
+        justify-self: center;
+        margin: 0 auto;
+        z-index: 1;
+        background-color: #002B5B;
+        width: 100%;
+        max-width: 1300px;
+       
+    }
+    .main-content h1{
+        font-size: 2rem;
         color: #ffffff;
         background-size: 100%;
     }
@@ -244,10 +317,10 @@
         text-align: center;
     }
     #main-img{
-        height: 0%;
-        width: 0%;
-        
+        height: 30%;
+        width: 100%;
     }
+    
 }
 
 /* About Us Section */
@@ -291,6 +364,7 @@
     width: 100px;
     border-radius: 50%;
 }
+
 @media (max-width: 768px){
     .about{
         justify-content: center;
@@ -332,8 +406,69 @@
         width: 80px;
         border-radius: 50%;
     }
+    
 
 }
+@media (min-width: 769px) and (max-width: 1023px){
+    .about{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .about-content{
+        margin: 3rem;
+        text-align: center;
+        justify-content: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Clients Section */
+.clients-section{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.clients-heading{
+     color: #002B5B;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    background-size: 100%;
+}
+
+@media (max-width:768px){
+    .clients-section{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding-top: 1rem;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .clients-heading{
+         color: #002B5B;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 2.5rem;
+        background-size: 100%;
+    } 
+  
+    .clients-logo{
+        width: 45%;
+        height: 45%;
+        object-fit: cover;
+
+    }
+}
+
 
 /* Services Section */
 
@@ -397,53 +532,11 @@
     .card-col{
         padding: 30px;
     }
-    
+    clients-heading{
+        padding-top: 25px;
+    }
+
    
-}
-
-/* Testimonial */
-
-.testimonials{
-    padding: 100px 300px;
-    height: 80vh;
-    justify-content: center;
-    text-align: center;
-}
-.testimonials h1{
-    color: #002B5B;
-    margin-bottom: 3rem;
-    font-size: 3.5rem;
-    background-size: 100%;
-    margin-top: 80px;
-}
-.testimonials img{
-    height: 60vh;
-    
-    object-fit: cover;
-    justify-content: center;
-}
-
-@media (max-width: 768px){
-    .testimonials{
-        padding: 25px 5px;
-        height: auto;
-        justify-content: center;
-        text-align: center;
-    }
-    .testimonials h1{
-        color: #002B5B;
-        margin-bottom: 1rem;
-        font-size: 2.5rem;
-        background-size: 100%;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    .testimonials img{
-        height: 30vh;
-        width: 20vh;
-        object-fit: cover;
-        justify-content: center;
-    }
 }
 
 /* Contact Us */
@@ -533,4 +626,11 @@ input{
 }
 body.modal-open {
     overflow: hidden;
+}
+
+/* Contact-form Page */
+
+.form-row{
+    margin-top:25px;
+    margin-bottom: 20px;
 }
